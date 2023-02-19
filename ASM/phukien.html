@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=., initial-scale=1.0">
+    <link rel="stylesheet" href="/w3_band/assets/themify-icons/themify-icons.css">
+    <title>Phụ Kiện</title>
+    
+    <style>
+
+
+        .column {
+            width: 25%;
+            float: left;
+        }
+
+        .san-pham {
+            border-radius: 10px;
+            box-shadow: 0 0 5px gray;
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+            margin-bottom: 55px;
+            margin-top: 80px;
+            box-shadow: 0 0 10px #333;
+        }
+        
+
+        /* phần tên giá */
+
+        .san-pham .ten {
+            margin-top: 15px;
+            font-size: larger;
+            font-variant: small-caps;
+            color: #333;
+        }
+
+        .san-pham img {
+            margin-top: 16px;
+            max-width: 95%;
+        }
+
+        .san-pham .gia {
+            margin-top: 25px;
+            color: #333;
+            font-weight: bold;
+            font-size: large;
+        }
+        /* phần tên giá */
+
+
+
+        /* Phần hình */
+        .mua {
+            
+            color: #fff;
+            background-color: red;
+            text-decoration: none;
+            padding: 10px 12px;
+            display: inline-block;
+            margin-top: 38px;
+            margin-bottom: 15px;
+        }
+        
+        .mua:hover {
+            color: #333;
+            background-color: #ccc!important;
+        }
+        /* Phần hình */
+
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+        html {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+/* 
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Từ tổng quan đến chi tiết
+*/
+/*
+1. Vị trí
+2. Kích thước(width, height)
+3. Màu sắc
+4. Kiểu dáng( kiểu chữ, hình tròn, vuông...)
+*/
+
+.text-while {
+    color: #fff !important;
+}
+
+.clear {
+    clear: both;
+}
+
+#main {
+
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 46px;
+    background-color:  #336699 ;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav, .subnav {
+    list-style: none;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li{
+    
+    position: relative;
+}
+
+#nav > li > a{
+    color: #fff;
+    text-transform: uppercase;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover a{
+    color: #000;
+    background-color: #ccc;
+
+}
+
+#nav .subnav{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+}
+
+#nav .nav-arrow-down {
+   font-size: 14px; 
+}
+
+#nav .img {
+            padding-left: 20px;
+            padding-right: 150px;
+            cursor: pointer;
+        }
+
+#header .search-btn {
+    color: #fff;
+    float: right;
+    padding: 0 21px;
+    line-height: 46px;
+    cursor: pointer;
+}
+
+#header .search-btn:hover {
+    background-color: #000;
+}
+
+#header .search-icon {
+    color: #fff;
+    font-size: 20px;
+    
+}
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- Begin: Nav -->
+            <ul id="nav">
+                <li class="img"> 
+                    <img src="/taidt_ps28369/img/FPT_Polytechnic (1).png" alt="" width="100px" align="center">
+                </li>
+                <li><a href="ASM.html">Trang chủ</a></li>
+                <li><a href="Lienhe.html">Liên hệ</a></li>
+                <li><a href="gioithieu.html">Giới thiệu</a></li>
+                <li><a href="gopy.html">Góp ý</a></li>
+                <li><a href="hoidap.html">Hỏi đáp</a></li>
+                <li>
+                    <a href="">
+                       Các sản phẩm
+                    <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="dienthoai.html">Điện thoại</a></li>
+                        <li><a href="maytinh.html">Máy tính</a></li>
+                        <li><a href="dongho.html">Đồng hồ</a></li>
+                        <li><a href="amthanh.html">Âm thanh</a></li>
+                        <li><a href="phukien.html">Phụ kiện</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- End: Nav -->
+            <!-- Begin: Search button -->
+            <div class="search-btn">
+                <i class="ti-search"></i>
+            </div>
+            <!-- End: Search button -->
+        </div>
+    <!-- afasfhaflagag -->
+
+    <!-- phan header -->
+    
+    <div class="column">
+        <div class="san-pham">
+            <div class="ten">Aukey Basix Slim </div>
+            <img src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/a/u/aukey_basix_slim_pb_n99_1.jpg" alt="">
+            <div class="gia">
+                <del>599.000₫</del> 329.000₫ <br>
+                <a href="https://fptshop.com.vn/phu-kien/pin-sac-du-phong-aukey-basix-slim-pb-n99-10000mah" class="mua">Aukey Basix Slim</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="san-pham">
+            <div class="ten">Innostyle PowerGo Smart Ai </div>
+            <img src="https://bizweb.dktcdn.net/100/031/560/products/broshop-pin-sac-du-phong-innostyle-powergo-smart-ai-10000mah-1.jpg?v=1577413356857" alt="" height="320px">
+            <div class="gia">
+                <del>599.000₫</del> 329.000₫ <br>
+                <a href="https://fptshop.com.vn/phu-kien/pin-sac-du-phong-powergo-smart-ai-10000mah-innostyle" class="mua"> Innostyle PowerGo Smart Ai </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="san-pham">
+            <div class="ten"> Magsafe Innostyle PowerMag </div>
+            <img src="https://jackmishop.vn/Data/Sites/1/Product/28807/innostyle-magsafe-15.png" alt="">
+            <div class="gia">
+                <del>1.200.000₫</del> 960.000₫ <br>
+                <a href="https://fptshop.com.vn/phu-kien/pin-sac-du-phong-magsafe-innostyle-powermag-slim-qc-30pd-20w-10000mah" class="mua"> Magsafe Innostyle PowerMag</a>
+            </div> 
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="san-pham">
+            <div class="ten">Anker PowerCore Select  </div>
+            <img src="https://ankervietnam.net/wp-content/uploads/2020/05/pin-sac-du-phong-anker-powercore-select-10000mah-a1223.jpg" alt="">
+            <div class="gia">
+                <del>699.000₫ </del>559.000₫ <br>
+                <a href="https://fptshop.com.vn/phu-kien/pin-sac-du-phong-li-ion-10000mah-anker-powercore-select-a1223-den" class="mua">Anker PowerCore Select </a>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="san-pham">
+            <div class="ten">Aukey Basix Slim </div>
+            <img src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/a/u/aukey_basix_slim_pb_n99_1.jpg" alt="">
+            <div class="gia">
+                <del>599.000₫</del> 329.000₫ <br>
+                <a href="https://fptshop.com.vn/phu-kien/pin-sac-du-phong-aukey-basix-slim-pb-n99-10000mah" class="mua">Aukey Basix Slim</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="san-pham">
+            <div class="ten">Innostyle PowerGo Smart Ai </div>
+            <img src="https://bizweb.dktcdn.net/100/031/560/products/broshop-pin-sac-du-phong-innostyle-powergo-smart-ai-10000mah-1.jpg?v=1577413356857" alt="" height="320px">
+            <div class="gia">
+                <del>599.000₫</del> 329.000₫ <br>
+                <a href="https://fptshop.com.vn/phu-kien/pin-sac-du-phong-powergo-smart-ai-10000mah-innostyle" class="mua"> Innostyle PowerGo Smart Ai </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="san-pham">
+            <div class="ten"> Magsafe Innostyle PowerMag </div>
+            <img src="https://jackmishop.vn/Data/Sites/1/Product/28807/innostyle-magsafe-15.png" alt="">
+            <div class="gia">
+                <del>1.200.000₫</del> 960.000₫ <br>
+                <a href="https://fptshop.com.vn/phu-kien/pin-sac-du-phong-magsafe-innostyle-powermag-slim-qc-30pd-20w-10000mah" class="mua"> Magsafe Innostyle PowerMag</a>
+            </div> 
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="san-pham">
+            <div class="ten">Anker PowerCore Select  </div>
+            <img src="https://ankervietnam.net/wp-content/uploads/2020/05/pin-sac-du-phong-anker-powercore-select-10000mah-a1223.jpg" alt="">
+            <div class="gia">
+                <del>699.000₫ </del>559.000₫ <br>
+                <a href="https://fptshop.com.vn/phu-kien/pin-sac-du-phong-li-ion-10000mah-anker-powercore-select-a1223-den" class="mua">Anker PowerCore Select </a>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+</body>
+</html>
