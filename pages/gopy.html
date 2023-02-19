@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+    <title>Giới thiệu</title>
+    <style>
+        h2 {
+            color: red;
+            text-align: center;
+            font-size: 30px;
+            margin-top: 80px;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* 
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Từ tổng quan đến chi tiết
+*/
+        /*
+1. Vị trí
+2. Kích thước(width, height)
+3. Màu sắc
+4. Kiểu dáng( kiểu chữ, hình tròn, vuông...)
+*/
+
+        .text-while {
+            color: #fff !important;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        #main {}
+
+        #header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 46px;
+            background-color:  #336699;
+        }
+
+        #nav {
+            display: inline-block;
+        }
+
+        #nav,
+        .subnav {
+            list-style: none;
+        }
+
+        #nav>li {
+            display: inline-block;
+        }
+
+        #nav li {
+
+            position: relative;
+        }
+
+        #nav>li>a {
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        #nav li a {
+            text-decoration: none;
+            line-height: 46px;
+            padding: 0 24px;
+            display: block;
+        }
+
+        #nav li:hover .subnav {
+            display: block;
+        }
+
+        #nav>li:hover>a,
+        #nav .subnav li:hover a {
+            color: #000;
+            background-color: #ccc;
+
+        }
+
+        #nav .subnav {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            min-width: 160px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        #nav .subnav a {
+            color: #000;
+            padding: 0 12px;
+            line-height: 38px;
+        }
+
+        #nav .nav-arrow-down {
+            font-size: 14px;
+        }
+
+        #nav .img {
+            padding-left: 20px;
+            padding-right: 150px;
+            cursor: pointer;
+        }
+
+        #header .search-btn {
+            color: #fff;
+            float: right;
+            padding: 0 21px;
+            line-height: 46px;
+            cursor: pointer;
+        }
+
+        #header .search-btn:hover {
+            background-color: #000;
+        }
+
+        #header .search-icon {
+            color: #fff;
+            font-size: 20px;
+
+        }
+
+        img {
+            padding-left: 22%;
+        }
+
+        h3 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        h4 {
+            color: red;
+            line-height: 30px;
+        }
+
+        p {
+            line-height: 30px;
+        }
+
+        .thanh {
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+
+        .login {
+            padding-bottom: 50px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- Begin: Nav -->
+            <ul id="nav">
+                <li class="img"> 
+                    <img src="/img/FPT_Polytechnic (1).png" alt="" width="100px" align="center">
+                </li>
+                <li><a href="/index.html">Trang chủ</a></li>
+                <li><a href="/pages/Lienhe.html">Liên hệ</a></li>
+                <li><a href="/pages/gioithieu.html">Giới thiệu</a></li>
+                <li><a href="/pages/gopy.html">Góp ý</a></li>
+                <li><a href="/pages/hoidap.html">Hỏi đáp</a></li>
+                <li>
+                    <a href="">
+                        Các sản phẩm
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="/pages/dienthoai.html">Điện thoại</a></li>
+                        <li><a href="/pages/maytinh.html">Máy tính</a></li>
+                        <li><a href="/pages/dongho.html">Đồng hồ</a></li>
+                        <li><a href="/pages/amthanh.html">Âm thanh</a></li>
+                        <li><a href="/pages/phukien.html">Phụ kiện</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- End: Nav -->
+            <!-- Begin: Search button -->
+            <div class="search-btn">
+                <i class="ti-search"></i>
+            </div>
+            <!-- End: Search button -->
+        </div>
+        <h2>Góp ý và phản hồi</h2>
+        <img src="https://fptshop.com.vn/uploads/originals/2015/10/19//635808760186107235_%5E300646A9E868B7766CDA73D7614C519170DDE9A993866736C4%5Epimgpsh_fullsize_distr%20(Copy).jpg"
+            alt="">
+        <div class="vanban">
+            <h3>Các bạn có thể liên hệ Gmail hoặc Số Hotline để nhận được phản hồi sớm nhất:</h3>
+            <h4>Gọi ngay: 1900.2886</h4>
+            <h4>Gmail: duongthanhtai1604@gmail.com</h4>
+            <p>Chúng tôi là tổnġ đàï chăm sóc khách hàng tư vấn thông tin tổng hợp trực tuyến 190028868.
+                Chúng tôi là tổng đài tư vấn tổng hợp riêng biệt.
+                Chúng tôi không mạo danh hay kinh doanh dịch vụ của bất kể một cá nhân hay một đơn vị cụ thể nào. <br>
+                Liên hệ 1900 2886 <br>
+                Phục vụ tốt nhất 7.30 – 22.30. <br>
+                – Chúng tôi cung cấp các thông tin theo đúng pháp luật, đúng ngành nghề được cho phép: tư vấn, hướng
+                dẫn, hỗ trợ, giải đáp thắc mắc của khách hàng dựa trên các thông tin có sẵn. <br>
+                – Theo quy định của Nhà Mạng và Bộ Thông tin và Truyền thông cước điện thoại khi gọi đến tổnġ đàï 1900
+                2886 là 8k/phút. Cước điện thoại được tính tiền từ giây thứ 11, mong quý khách cân nhắc trước khi thực
+                hiện cuộc gọi. <br>
+                - Nếu quý khách không được cung cấp hotline chuẩn hoặc không hài lòng với dịch vụ, vui lòng liên hệ lại
+                tổng đài để phản ánh. Bộ phận giải quyết khiếu nại của Chúng tôi sẽ tiếp nhận xử lý và cam kết hoàn 100%
+                cước phát sinh liên hệ tổng đài trong trường hợp nhân viên cung cấp không đúng thông tin dịch vụ. <br>
+
+                – Đối với những thông tin phức tạp đòi hỏi thời gian nghiên cứu, sự chính xác hay không thuộc phạm vi
+                hiểu biết của chúng tôi, chúng tôi xin phép được hướng dẫn gọi đến tổnġ đàï khác hoặc giới thiệu chuyên
+                gia có thể giải quyết được thông tin đó. Xin cảm ơn.
+            </p>
+        </div>
+        <div class="thanh">
+            <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Thanh"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Tài"><br><br>
+                <label for="">Góp ý:</label><br>
+                <textarea name="" id="" cols="150" rows="5"></textarea>
+            </form>
+        </div>
+        
+            <div class="login">
+                <input type="submit" class="form-button" value="Gửi đi" >
+            </div>
+            
+        
+    </div>
+    <div>
+</body>
+
+</html>
